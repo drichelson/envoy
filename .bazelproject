@@ -1,0 +1,16 @@
+#Used by CLion IDE
+directories:
+  # Add the directories you want added as source here
+  # By default, we've added your entire workspace ('.')
+  .
+
+targets:
+  # Add targets that reach the source code that you want to resolve here
+  //source/...
+  //test/...
+
+test_sources:
+  test/*
+
+build_flags:
+  --crosstool_top=//custom_toolchain
